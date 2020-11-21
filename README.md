@@ -6,22 +6,22 @@
 本SDK为小松云支付开发定制。更多详情:http://www.xskj.store
 
 小松云支付:http://pay.xskj.store
+# 介绍
+* 作者:小松
 
-作者:小松
+* QQ:1829134124
 
-QQ:1829134124
+* 版本:1.0
 
-版本:1.0
+* 时间:20206016
 
-时间:20206016
+* 应用:iapp支付整合易支付，表单集成开发支付，单页订单开发支付配置等
 
-应用:iapp支付整合易支付，表单集成开发支付，单页订单开发支付配置等
-
-说明:本SDK对php版本没过多要求，还SDK有本人请测！有效，但如果需要验证iappkey时可能需要php版本要求。
+* 说明:本SDK对php版本没过多要求，还SDK有本人请测！有效，但如果需要验证iappkey时可能需要php版本要求。
 
 开发不易，给俺留个位置呗！
 
-使用方法:
+# 使用方法:
 
 ①把本SDK集成到你的网站或者支付系统，你只需要把本插件下载安装到根目录，然后配置支付接口和商户id和秘钥key.
 
@@ -38,22 +38,23 @@ QQ:1829134124
 ③POST提交参数文档如下(可以开发出自己的iapp支付):
 
 POST所要请求的参数变量:!!!!!!!!!!!!!,表单集成开发关键
+|别名|参数|
+|  ----  | ----  |
+|商户id|user_id|
 
-商户id:user_id
+|商户秘钥|user_key|
 
-商户秘钥:user_key
+|iapp秘钥|user_iappkey|
 
-iapp秘钥:user_iappkey
+|商户订单号|iapp_trade_no|
 
-商户订单号:iapp_trade_no
+|支付方式|type|
 
-支付方式:type
+|商品名称|iapp_subject|
 
-商品名称:iapp_subject
+|付款金额|iapp_fee|
 
-付款金额:iapp_fee
-
-用户成员表名:table_name
+|用户成员表名|table_name|
 
 ④如果要进行自己的业务编写请往return_url.php中编写
 
