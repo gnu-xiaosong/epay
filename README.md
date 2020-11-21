@@ -41,21 +41,13 @@ POST所要请求的参数变量:!!!!!!!!!!!!!,表单集成开发关键
 |别名|参数|
 |---- | ----  |
 |商户id|user_id|
-
 |商户秘钥|user_key|
-
 |iapp秘钥|user_iappkey|
-
 |商户订单号|iapp_trade_no|
-
 |支付方式|type|
-
 |商品名称|iapp_subject|
-
 |付款金额|iapp_fee|
-
 |用户成员表名|table_name|
-
 ④如果要进行自己的业务编写请往return_url.php中编写
 
 如果不想提交这些变量的值，可以去epayapi.php中设置相应的参数配置即可
